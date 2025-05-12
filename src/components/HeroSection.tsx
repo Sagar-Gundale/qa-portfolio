@@ -16,7 +16,7 @@ const HeroSection = ({
   ctaText = "Download My Resume",
   onCtaClick = () => {
     const resumeUrl =
-      "https://drive.google.com/uc?export=download&id=1Cj9X21QACryHWMUDq5GZ9HO_2XK6z9ri"; // Converted to direct download URL
+      "https://drive.google.com/file/d/1-PISA722XYl-WIkkrNKlyF5eLNueP8RI/view?usp=drive_link"; // Converted to direct download URL
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.setAttribute("download", "Sagar_Gundale_Resume.pdf");
